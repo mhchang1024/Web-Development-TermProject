@@ -1,0 +1,13 @@
+
+
+/*#main-content{
+    margin: 20px auto auto auto;
+   
+    text-align: center;
+    display: grid;
+    width: 1000px;
+    height: 1000px;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+}*/

@@ -1,0 +1,32 @@
+#registrationBack{ 
+    background: url("https://i.pinimg.com/originals/ce/46/f2/ce46f26726b0fe01fabc2415d04ebd90.gif") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#registration{
+    width: 250px;
+    height: 420px;
+    grid-area: 2/ 2/ 3/ -3;
+    background-color: rgba(92, 88, 88, 0.75);
+    border: 2px solid rgb(218, 3, 207);
+    border-radius: 8px;
+    box-shadow: 0 2px 2px black;
+    resize: both;   
+    justify-self: center;
+}
+label{
+   text-align: center;
+    margin: 16px;
+    padding: 0px;
+    display: block;
+    width: 7rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#reg-button{
+    
+    background-color: rgb(121, 10, 10);
+    display: inline-block;
+    border-radius: 8px;   
+    text-align: center; 
+    font-size: 18px;
+}

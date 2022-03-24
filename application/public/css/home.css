@@ -1,0 +1,69 @@
+
+#main-content {
+    grid-area: content;
+    padding-top: .35em;
+    padding-bottom: .35em;
+    display: grid;
+    gap: .2rem .2rem;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-auto-columns:  1fr 1fr 1fr 1fr;
+    grid-auto-rows:1fr;
+    min-height: 93.3vh;
+    min-width: 200px;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 186px 150px;
+    grid-template-columns: 400px;
+    border: .0625rem solid white;
+    border-radius: .25rem;
+    box-shadow: 0 2px 2px #dfdede;
+    min-width: 100px;
+    justify-self: center;
+    color: aliceblue;
+}
+
+.card-image{
+    grid-area: 1/1/2/2;
+}
+
+div[class=card] > img{
+    height: 336px;
+    width: 100%;
+
+    
+}
+
+.car-text{
+    color: rgb(247, 247, 247) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: .1rem;
+    margin-top: 0;
+    padding-top: .1rem;
+}
+
+.card-body{
+    text-align: center;
+    grid-area: 3/ 1/ 3/ 2;
+    padding: .74rem;
+    background-color: rgba(221, 160, 221, 0.507);
+    border-radius: 0 0 .2rem .2rem;
+    height: 100%;
+    
+}
+
+div[class=card-body] > a[class=card-button]{
+    text-decoration: none;
+}
+.car-text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anchor-buttons{
+    cursor: pointer;
+    text-transform: uppercase;
+    color: blue;
+}

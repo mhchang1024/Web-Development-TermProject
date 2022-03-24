@@ -1,0 +1,32 @@
+#postBack{ 
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/549e9b77-4c90-4c7f-8d0e-772a4ba70576/deatums-3efa93b0-c0b1-42ea-ad68-9acfe22c3fda.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU0OWU5Yjc3LTRjOTAtNGM3Zi04ZDBlLTc3MmE0YmE3MDU3NlwvZGVhdHVtcy0zZWZhOTNiMC1jMGIxLTQyZWEtYWQ2OC05YWNmZTIyYzNmZGEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fWktcuuXprRGkjuIsqiTa7-mzFAAaOX89gZ0bquVrIY") no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+
+
+#postFrom{
+    width: 400px;
+    height: 410px;
+    grid-area: 2/ 2/ 3/ -3;
+    background-color: rgb(247, 125, 247,.5);
+    border: 4px solid rgb(119, 41, 134);
+    border-radius: 8px;
+    box-shadow: 0 2px 2px black;
+    justify-self: center;
+}
+label{
+   text-align: center;
+    margin: 16px;
+    padding: 2px;
+    display: block;
+    width: 7rem;
+}
+#posting-button{
+    background-color: rgba(24, 112, 212, 0.466);
+    display: inline-block;
+    border-radius: 8px;   
+    text-align: center; 
+    font-size: 25px;
+}
